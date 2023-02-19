@@ -1,17 +1,32 @@
 
     body {
-        padding: 6% 15%;
+        padding: 5% 15%;
+        background-color: #f9f1e9;
     }
 
-    .card {
-        width: 60%;
+    #card {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50rem;
+        background-color: #fff;
     }
 
     /*
        Desings for the left side
     */
 
+    #left-side {
+        padding: 0;
+    }
+
     #product-img {
-        width: 20rem;
-        height: 30rem;
+        width: 100%;
+    }
+
+    /*
+      Designs for the right side
+    */
+
+    #right-side {
+        margin-left: ;
     }
