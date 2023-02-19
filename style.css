@@ -7,7 +7,8 @@
     #card {
         margin-left: auto;
         margin-right: auto;
-        width: 50rem;
+        width: 61%;
+        height: 61%;
         background-color: #fff;
     }
 
@@ -21,6 +22,7 @@
 
     #product-img {
         width: 100%;
+        height: 100%;
     }
 
     /*
@@ -28,5 +30,42 @@
     */
 
     #right-side {
-        margin-left: ;
+        padding-left: 5%;
+    }
+
+    #right-side > #pricing > h1 {
+        font-size: 2rem;
+        color: #0d450a;
+    }
+
+    #right-side > #pricing > p {
+        text-decoration-line: line-through;
+        color: #827a71;
+    }
+
+    #right-side > h1{
+        font-size: 2.5rem;
+        font-weight: 900;
+        line-height: 1;
+        margin-bottom: 1rem;
+    }
+
+    #right-side > p {
+        font-size: 1rem;
+        padding: 3%;
+        color: #827a71;
+    }
+
+
+    #add-cart {
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .attribution {
+        width: 61%;
+        margin: auto;
+        text-align: center;
     }
