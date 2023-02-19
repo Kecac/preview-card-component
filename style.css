@@ -36,6 +36,9 @@
     */
 
     #right-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
         padding-left: 5%;
         background-color: #fff;
         border-top-right-radius: 5%;
@@ -53,14 +56,14 @@
     }
 
     #right-side > h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: 900;
         line-height: 1;
         margin-bottom: 1rem;
     }
 
     #right-side > p {
-        font-size: 14px;
+        font-size: 1.2rem;
         padding: 3%;
         color: #827a71;
     }
@@ -97,6 +100,7 @@
         #right-side {
             border-bottom-left-radius: 5%;
         }
+        
     }
 
     @media (min-width: 768px) {
