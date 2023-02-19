@@ -1,0 +1,17 @@
+
+    body {
+        padding: 6% 15%;
+    }
+
+    .card {
+        width: 60%;
+    }
+
+    /*
+       Desings for the left side
+    */
+
+    #product-img {
+        width: 20rem;
+        height: 30rem;
+    }
