@@ -9,7 +9,6 @@
         margin-right: auto;
         width: 61%;
         height: 61%;
-        background-color: #fff;
     }
 
     /*
@@ -23,6 +22,13 @@
     #product-img {
         width: 100%;
         height: 100%;
+        border-top-left-radius: 5%;
+        border-bottom-left-radius: 5%;
+    }
+
+    #m-product-img {
+        width: 100%;
+        height: 100%;
     }
 
     /*
@@ -31,6 +37,9 @@
 
     #right-side {
         padding-left: 5%;
+        background-color: #fff;
+        border-top-right-radius: 5%;
+        border-bottom-right-radius: 5%;
     }
 
     #right-side > #pricing > h1 {
@@ -44,14 +53,14 @@
     }
 
     #right-side > h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 900;
         line-height: 1;
         margin-bottom: 1rem;
     }
 
     #right-side > p {
-        font-size: 1rem;
+        font-size: 14px;
         padding: 3%;
         color: #827a71;
     }
@@ -59,13 +68,41 @@
 
     #add-cart {
         margin-bottom: 1rem;
-        margin-left: auto;
-        margin-right: auto;
     }
 
+    #perfume {
+        margin-top: 1rem;
+    }
 
     .attribution {
         width: 61%;
         margin: auto;
         text-align: center;
     }
+
+
+    /*
+       Media querys for img element (mobile switch)
+    */
+
+    @media (max-width: 768px) {
+        #product-img {
+            visibility: hidden;
+            position: absolute;
+        }
+        #m-product-img {
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;
+        }
+        #right-side {
+            border-bottom-left-radius: 5%;
+        }
+    }
+
+    @media (min-width: 768px) {
+        #m-product-img {
+            visibility: hidden;
+            
+        }
+    }
+    
